@@ -7,4 +7,6 @@ Each module has their own POM file and all dependencies are controled by the Cor
 - This project has examples about Dependency Injection using Spring
 - This project also has a good example about how to use a property file and autowire the values using Spring annotations
 
+- Later in this project was added the Spring Boot configuration
+
 I built this project using the spring course on Udemy create by the instructor Tim Buchalka
