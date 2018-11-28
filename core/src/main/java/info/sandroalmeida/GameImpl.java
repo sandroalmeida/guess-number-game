@@ -1,4 +1,4 @@
-package academy.learnprogramming;
+package info.sandroalmeida;
 
 import lombok.AccessLevel;
 import lombok.Getter;

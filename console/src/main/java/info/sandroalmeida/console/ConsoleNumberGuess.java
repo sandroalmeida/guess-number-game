@@ -1,7 +1,7 @@
-package academy.learnprogramming.console;
+package info.sandroalmeida.console;
 
-import academy.learnprogramming.Game;
-import academy.learnprogramming.MessageGenerator;
+import info.sandroalmeida.Game;
+import info.sandroalmeida.MessageGenerator;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;

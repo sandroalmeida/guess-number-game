@@ -1,8 +1,8 @@
-package academy.learnprogramming.config;
+package info.sandroalmeida.config;
 
-import academy.learnprogramming.GuessCount;
-import academy.learnprogramming.MaxNumber;
-import academy.learnprogramming.MinNumber;
+import info.sandroalmeida.GuessCount;
+import info.sandroalmeida.MaxNumber;
+import info.sandroalmeida.MinNumber;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@ComponentScan(basePackages = "academy.learnprogramming")
+@ComponentScan(basePackages = "info.sandroalmeida")
 @PropertySource("classpath:config\\game.properties")
 public class GameConfig {
 
